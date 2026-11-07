@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nakutara Japanese Reflexology & Massage menyediakan terapi reflexology, pijat relaksasi, dan layanan home service dengan booking cepat dan kontak langsung."
+    />
+    <title>Nakutara Japanese Reflexology & Massage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand" aria-label="Nakutara logo">
+          <div class="brand-mark">N</div>
+          <div>
+            <h1>Nakutara</h1>
+            <small>Japanese Reflexology</small>
+          </div>
+        </div>
+
+        <nav class="menu" aria-label="Navigasi utama">
+          <a href="#home">Home</a>
+          <a href="#about">Tentang</a>
+          <a href="#services">Layanan</a>
+          <a href="#booking">Booking</a>
+          <a href="#reviews">Review</a>
+          <a href="#contact">Kontak</a>
+        </nav>
+
+        <a class="btn primary" href="#booking">Book Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Relaksasi • Terapi • Home Service</span>
+            <h2>Terapi reflexology dan pijat Jepang yang menenangkan tubuh dan pikiran.</h2>
+            <p>
+              Nakutara hadir untuk membantu Anda melepas stres, nyeri otot, dan kelelahan
+              dengan terapi reflexology, pijat relaksasi, serta layanan home service yang
+              nyaman dan profesional.
+            </p>
+
+            <div class="cta-row">
+              <a class="btn primary" id="whatsappBtn" target="_blank" rel="noreferrer">Chat WhatsApp</a>
+              <a class="btn secondary" href="#services">Lihat Layanan</a>
+            </div>
+
+            <ul class="hero-points">
+              <li>Therapy di tempat</li>
+              <li>Home service tersedia</li>
+              <li>Profesional & terjangkau</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-glass">
+              <div class="mini-label">Popular package</div>
+              <h3>Reflexology & Massage</h3>
+              <div class="price-row">
+                <span class="price">Mulai dari</span>
+                <strong>Rp 150.000</strong>
+              </div>
+              <div class="service-list">
+                <span>• Reflexology kaki</span>
+                <span>• Pijat aromaterapi</span>
+                <span>• Deep tissue relief</span>
+              </div>
+              <a class="btn primary block" id="bookingBtn" target="_blank" rel="noreferrer">Booking Sekarang</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <div>
+            <strong>1.000+</strong>
+            <span>Klien puas</span>
+          </div>
+          <div>
+            <strong>5+</strong>
+            <span>Tahun pengalaman</span>
+          </div>
+          <div>
+            <strong>24 Jam</strong>
+            <span>Booking cepat</span>
+          </div>
+          <div>
+            <strong>Home Service</strong>
+            <span>Area terjangkau</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container split-layout">
+          <div class="image-panel">
+            <div class="image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80"
+                alt="Terapis melakukan pijat dan terapi reflexology"
+              />
+            </div>
+          </div>
+
+          <div class="content-panel">
+            <span class="eyebrow">Tentang Nakutara</span>
+            <h3>Terapi yang dibuat untuk tubuh yang lelah dan butuh pelepas stres.</h3>
+            <p>
+              Kami menghadirkan pendekatan terapi yang menggabungkan teknik reflexology
+              Jepang dengan pijat relaksasi modern untuk membantu meningkatkan sirkulasi,
+              menurunkan stres, dan menjaga kesehatan tubuh secara menyeluruh.
+            </p>
+            <p>
+              Layanan kami tersedia untuk terapi di tempat dan home service, sehingga Anda
+              dapat menikmati pengalaman rileks di lingkungan yang paling nyaman bagi Anda.
+            </p>
+
+            <div class="feature-list">
+              <span>✓ Terapi di tempat</span>
+              <span>✓ Home service</span>
+              <span>✓ Produk nyaman & aman</span>
+              <span>✓ Ritme layanan yang santai</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section alt-bg">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Layanan kami</span>
+            <h3>Solusi terapi untuk rasa lelah dan nyeri harian.</h3>
+          </div>
+
+          <div class="cards-grid">
+            <article class="service-card">
+              <div class="icon">◎</div>
+              <h4>Japanese Reflexology</h4>
+              <p>Teknik pijat refleksi pada titik kaki untuk mengurangi stres, melancarkan aliran darah, dan meningkatkan relaksasi.</p>
+              <strong>Mulai Rp 150.000</strong>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">◌</div>
+              <h4>Aromatherapy Massage</h4>
+              <p>Massage dengan aroma terapi yang menenangkan tubuh dan pikiran untuk hasil rileks lebih maksimal.</p>
+              <strong>Mulai Rp 180.000</strong>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">✦</div>
+              <h4>Deep Tissue Therapy</h4>
+              <p>Tekanan lebih dalam untuk mengurangi ketegangan otot pada bagian punggung, leher, dan bahu.</p>
+              <strong>Mulai Rp 220.000</strong>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">☼</div>
+              <h4>Home Service</h4>
+              <p>Therapy di rumah Anda dengan perlengkapan yang siap dan suasana yang lebih private dan nyaman.</p>
+              <strong>Mulai Rp 260.000</strong>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">✧</div>
+              <h4>Relax Massage</h4>
+              <p>Relaksasi menyeluruh untuk membantu mengurangi kelelahan harian dan menenangkan sistem saraf.</p>
+              <strong>Mulai Rp 170.000</strong>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">♢</div>
+              <h4>Stress Relief Session</h4>
+              <p>Program khusus untuk Anda yang sering merasa tegang, lelah, dan butuh recovery tubuh.</p>
+              <strong>Mulai Rp 190.000</strong>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head narrow">
+            <span class="eyebrow">Kenapa memilih kami</span>
+            <h3>Layanan yang nyaman, profesional, dan cocok untuk kebutuhan Anda.</h3>
+          </div>
+
+          <div class="benefit-grid">
+            <div class="benefit-item">
+              <h4>1. Terapi personal</h4>
+              <p>Setiap sesi disesuaikan dengan kebutuhan tubuh dan tingkat stres Anda.</p>
+            </div>
+            <div class="benefit-item">
+              <h4>2. Lokasi fleksibel</h4>
+              <p>Anda bisa datang langsung ke tempat atau memilih layanan home service yang praktis.</p>
+            </div>
+            <div class="benefit-item">
+              <h4>3. Booking cepat</h4>
+              <p>Proses reservasi mudah via WhatsApp, kalender, atau kontak langsung.</p>
+            </div>
+            <div class="benefit-item">
+              <h4>4. Harga transparan</h4>
+              <p>Semua paket jelas sehingga Anda bisa memilih sesuai kebutuhan tanpa bingung.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="section booking-section alt-bg">
+        <div class="container booking-grid">
+          <div class="booking-copy">
+            <span class="eyebrow">Booking mudah</span>
+            <h3>Siap reservasi sesi terapi Anda?</h3>
+            <p>
+              Pilih cara yang paling nyaman: chat WhatsApp, jadwalkan melalui kalender, atau
+              pilih paket sesuai kebutuhan Anda.
+            </p>
+
+            <div class="booking-actions">
+              <a class="btn primary" id="whatsappBtn2" target="_blank" rel="noreferrer">WhatsApp Booking</a>
+              <a class="btn secondary" id="calendarBtn" target="_blank" rel="noreferrer">Open Calendar</a>
+            </div>
+          </div>
+
+          <div class="booking-panel">
+            <div class="panel-box">
+              <h4>Sistem & integrasi</h4>
+              <ul>
+                <li><a id="cashierLink" target="_blank" rel="noreferrer">Kasir / pembayaran</a></li>
+                <li><a id="calendarLink" target="_blank" rel="noreferrer">Kalender booking</a></li>
+                <li><a id="mapsLink" target="_blank" rel="noreferrer">Google Maps</a></li>
+                <li><a id="reviewsLink" target="_blank" rel="noreferrer">Google Reviews</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Review pelanggan</span>
+            <h3>Ulasan dari klien yang sudah merasakan terapi kami.</h3>
+          </div>
+
+          <div class="testimonial-grid">
+            <blockquote>
+              “Pelayanannya ramah, terapi sangat nyaman, dan rasa lelah langsung berkurang setelah sesi.”
+              <footer>— Klien, Bandung</footer>
+            </blockquote>
+            <blockquote>
+              “Home service-nya sangat praktis. Terasa profesional dan tempatnya nyaman untuk relaksasi.”
+              <footer>— Klien, Jakarta</footer>
+            </blockquote>
+            <blockquote>
+              “Reflexology-nya mantap banget. Sudah jadi rutin saya untuk menjaga kesehatan tubuh.”
+              <footer>— Klien, Depok</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <div class="brand-mark">N</div>
+            <div>
+              <h1>Nakutara</h1>
+              <small>Japanese Reflexology</small>
+            </div>
+          </div>
+          <p>Terapi reflexology modern untuk tubuh yang membutuhkan relaksasi dan recovery.</p>
+        </div>
+
+        <div>
+          <h4>Kontak</h4>
+          <ul>
+            <li><a id="footerWhatsApp" target="_blank" rel="noreferrer">WhatsApp</a></li>
+            <li><a id="footerMaps" target="_blank" rel="noreferrer">Google Maps</a></li>
+            <li><a id="footerReviews" target="_blank" rel="noreferrer">Google Reviews</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Jam operasional</h4>
+          <ul>
+            <li>Senin - Minggu</li>
+            <li>09.00 - 21.00 WIB</li>
+            <li>Home service sesuai area</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© <span id="year"></span> Nakutara Japanese Reflexology & Massage</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
